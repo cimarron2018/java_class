@@ -22,7 +22,7 @@ jobs:
     
     steps:
       - checkout:
-      path: ~/java_class
+          path: ~/java_class
 
       # Download and cache dependencies
       - restore_cache:
